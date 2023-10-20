@@ -1,0 +1,38 @@
+/* If the screen size is more than 425px the following styles are applied to the Navbar Component */
+@media (min-width: 425px) {
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5 20 5 20;
+    }
+    .DesktopMenu{
+        display: flex; /*Displays the Desktop menu*/
+        align-items: flex-start;
+        gap: 3rem;
+    }
+    .hamburger-menu {
+        display: none; /*Hides the Hamburger menu*/
+      }
+}
+
+/* If the screen size is less than 425px the following styles are applied to the Navbar Component */
+@media (max-width:425px){
+    .nav{
+        margin-bottom: 5rem;
+    }
+    .logo{
+        width: 18rem;
+    }
+    .hamburger-menu {
+        display: block; /*Displays the Hamburger menu*/
+    }
+    .DesktopMenu{
+        display: none; /*Hides the Desktop menu*/
+    }
+}
+
+
+
+
+  

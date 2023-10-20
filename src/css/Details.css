@@ -1,0 +1,136 @@
+/* If the screen size is more than 425px the following styles are applied to the Details Component */
+@media (min-width: 425px){
+    .detailsFrame{
+        width: 90rem;
+        margin: 4rem 0;
+        height: fit-content;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .products{
+        width: 90rem;
+        justify-self: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .detailsTop{
+        width: 90rem;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px 20px 0px;
+        gap: 20rem;
+        align-items: center;
+    }
+    .detailsTopLeft{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .whatsNew{
+        color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5rem;
+    }
+    
+    .takeALook{
+        color: var(--primary-color-dark-blue, #003459);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.25rem;
+        text-transform: capitalize;
+    }
+    .detailsTopRight{
+        display: flex;
+        gap: 2rem;
+        flex-direction: row;
+    }
+    .animalButton{
+        margin-left: 20px;
+        padding: 0.75rem 1.75rem;
+        border-radius: 3.5625rem;
+        border: 1.5px solid var(--primary-color-dark-blue, #003459);
+    }
+    .active{
+        background-color: #003459;
+        color: aliceblue;
+    }
+}
+
+
+/* If the screen size is less than 425px the following styles are applied to the Details Component */
+@media (max-width: 425px) {
+    .detailsFrame{
+        width: 90rem;
+        margin: 4rem 0;
+        height: fit-content;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .products{
+        width: 90rem;
+        justify-self: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .detailsTop{
+        display: flex;
+        flex-direction: column;
+    }
+    .detailsTopLeft{
+        width: fit-content;
+        margin-left: 6rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .detailsTopRight{
+        display: inline-flex;
+        align-items: flex-start;
+        margin: 4rem;
+        gap: 6rem;
+        
+    }
+    .whatsNew{
+        color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 4rem;
+    }
+    
+    .takeALook{
+        color: var(--primary-color-dark-blue, #003459);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 4rem;
+        text-transform: capitalize;
+    }
+    .animalButton{
+        width: 15rem;
+        font-size: 3rem;
+        padding: 0.75rem 3rem;
+        border-radius: 3.5625rem;
+        border: 1.5px solid var(--primary-color-dark-blue, #003459);
+    }
+    .active{
+        background-color: #003459;
+        color: aliceblue;
+    }
+
+}

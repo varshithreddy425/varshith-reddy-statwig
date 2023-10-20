@@ -1,0 +1,115 @@
+@media (min-width: 425px){
+    .footer{
+        width: 94rem;
+        display: inline-flex;
+        padding: 5rem 7.0625rem 4.25rem 8.125rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 3.5rem;
+        border-radius: 2.5rem 2.5rem 0rem 0rem;
+        background: linear-gradient(103deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    }
+    
+    .frame26{
+        width: 73.75rem;
+        height: 2.5rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .frame27{
+        width: fit-content;
+        margin: auto;
+        display: flex;
+        padding-bottom :3rem;
+        gap: 35rem;
+    }
+    .frame2{
+        display: flex;
+        gap: 3.75rem;
+        list-style: none;
+        color: var(--neutral-color-100, #00171F);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5rem;
+    }
+    .frame25{
+        display: flex;
+        align-items: flex-start;
+        gap: 2.5rem;
+    }
+    .frame28{
+        display: flex;
+        padding-bottom: 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.5rem;
+        border-bottom: 1px solid var(--neutral-color-20, #CCD1D2);
+    }
+}
+
+@media (max-width: 425px){
+    .footer{
+        width: 94rem;
+        display: flex;
+        padding: 5rem 7.0625rem 4.25rem 8.125rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3.5rem;
+        border-radius: 2.5rem 2.5rem 0rem 0rem;
+        background: linear-gradient(103deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    }
+    
+    .frame26{
+        width: fit-content;
+        display: flex;
+        gap: 2.5rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .frame26 img{
+        width: 15rem;
+    }
+    .frame27{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding-bottom :3rem;
+        gap: 8rem;
+    }
+    .frame2{
+        display: flex;
+        gap: 8rem;
+        list-style: none;        
+        color: var(--neutral-color-100, #00171F);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 4rem;
+    }
+    .frame25{
+        display: flex;
+        align-items: flex-start;
+        gap: 8rem;
+    }
+    .frame25 a img{
+        width: 4rem;
+        height: 4rem;
+    }
+    .frame28{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+        align-items: flex-start;
+        gap: 2.5rem;
+        border-bottom: 1px solid var(--neutral-color-20, #CCD1D2);
+    }
+}
+

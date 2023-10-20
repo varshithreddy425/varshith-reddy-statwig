@@ -1,0 +1,142 @@
+/* If the screen size is more than 425px the following styles are applied to the Header Component */
+@media (min-width: 425px) {
+    .header{
+        width: 94rem;
+        flex-shrink: 0;
+        border-radius: 0rem 0rem 2.5rem 2.5rem;
+        background: var(--Linear, linear-gradient(103deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%));
+    }
+    .headerContent{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .textAndButtons{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+    .text1{
+        color: var(--primary-color-dark-blue-80, #002A48);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 3.75rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 4.25rem; 
+        text-transform: capitalize;
+    }
+    .text2{
+        color: var(--primary-color-dark-blue-80, #002A48);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 3.75rem; 
+        text-transform: capitalize;
+    }
+    .text3{
+        width: 40rem;
+    }
+    .headerButtons{
+        display: flex;
+        gap: 0.625rem;
+        align-items: center;
+    }
+    .button1{
+        width: 10rem;
+    }
+    
+    .button2{
+        width: 10.1875rem;
+        padding: 0.875rem 1.75rem 0.625rem 1.75rem;
+        border-radius: 3.5625rem;
+        background: var(--primary-color-dark-blue, #003459);
+        color: #FDFDFD;
+    }
+
+    .ShowcaseMobile {
+        display: none; /*Hides the Showcase Mobile image in Desktop mode*/
+      }
+    .ShowcaseDesktop {
+        display: block; /*Displays the Showcase Desktop image in Desktop mode*/
+    }
+}
+
+
+@media (max-width: 425px) {
+    .ShowcaseMobile {
+        display: block; /*Displays the Showcase Mobile image in Mobile mode*/
+      }
+      .ShowcaseDesktop {
+        display: none; /*Hides the Showcase Desktop image in Mobile mode*/
+      }
+    .header{
+        width: 94rem;
+        height: fit-content;
+        flex-shrink: 0;
+        border-radius: 0rem 0rem 2.5rem 2.5rem;
+        background: var(--Linear, linear-gradient(103deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%));
+    }
+    .headerContent{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .ShowcaseMobile{
+        width: 100rem;
+        height: 50rem;
+    }
+    .textAndButtons{
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        margin-left: 5rem;
+    }
+    .text1{
+        color: var(--primary-color-dark-blue-80, #002A48);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 6rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 4.25rem;
+        text-transform: capitalize;
+    }
+    .text2{
+        color: var(--primary-color-dark-blue-80, #002A48);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 3.75rem;
+        text-transform: capitalize;
+    }
+    .text3{
+        width: 80rem;
+        color: var(--neutral-color-80, #242B33);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 3rem;
+    }
+    .headerButtons{
+        display: flex;
+        gap: 2.5rem;
+        align-items: center;
+    }
+    .button1{
+        width:25rem;
+    }
+    
+    .button2{
+        width: 25rem;
+        font-size: 2.6rem;
+        padding: 1.8rem 1.75rem 1.8rem 1.75rem;
+        border-radius: 4rem;
+        background: var(--primary-color-dark-blue, #003459);
+        color: #FDFDFD;
+    }
+}
